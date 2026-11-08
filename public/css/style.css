@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+}
+
+.navbar,
+.footer {
+    background-color: #002060;
+}
+
+.navbar-brand img {
+    height: 48px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
