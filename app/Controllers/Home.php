@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('startseite');
     }
+
+    public function spalten(): string
+    {
+        return view('spalten');
+    }
 }

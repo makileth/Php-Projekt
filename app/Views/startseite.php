@@ -20,7 +20,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="<?= site_url('/') ?>">Tasks</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Boards</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Spalten</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?= site_url('spalten') ?>">Spalten</a></li>
             </ul>
         </div>
     </div>
@@ -40,7 +40,7 @@
 <footer class="footer text-white py-4">
     <div class="container-fluid d-flex flex-wrap justify-content-between gap-2">
 
-        <span>&copy;Web-Entwicklung Team [unsere Gruppennummer]</span> <!-- ich kenn die nicht. lol. -->
+        <span>&copy;Web-Entwicklung Team 14</span>
         <ul class="list-inline mb-0">
             <li class="list-inline-item"><a href="#">Impressum</a></li>
             <li class="list-inline-item"><a href="#">Datenschutz</a></li>
