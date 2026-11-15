@@ -13,4 +13,8 @@ class Home extends BaseController
     {
         return view('spalten');
     }
+    public function spaltenErstellen(): string
+    {
+        return view('spalten_erstellen');
+    }
 }
