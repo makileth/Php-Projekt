@@ -4,17 +4,26 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('startseite');
+        echo view('templates/header');
+        echo view('templates/menu');
+        echo view('startseite');
+        echo view('templates/footer');
     }
 
-    public function spalten(): string
+    public function spalten()
     {
-        return view('spalten');
+        echo view('templates/header');
+        echo view('templates/menu');
+        echo view('spalten');
+        echo view('templates/footer');
     }
-    public function spaltenErstellen(): string
+    public function spaltenErstellen()
     {
-        return view('spalten_erstellen');
+        echo view('templates/header');
+        echo view('templates/menu');
+        echo view('spalten_erstellen');
+        echo view('templates/footer');
     }
 }
